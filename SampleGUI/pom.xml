@@ -8,7 +8,7 @@
   </parent>
 
     <groupId>com.techapp</groupId>
-    <artifactId>Sample</artifactId>
+    <artifactId>SampleGUI</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
