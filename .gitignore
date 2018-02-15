@@ -1,0 +1,14 @@
+/assets
+/bin
+/target
+/build
+.settings
+.gradle
+.idea
+*.iml
+/MavenSample/target/
+/Sample/target/
+/SampleGUI/target/
+/SampleGUI/nbproject/
+/SampleClass/nbproject/
+/SampleClass/target/
