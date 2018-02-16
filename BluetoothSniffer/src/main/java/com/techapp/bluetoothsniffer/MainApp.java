@@ -1,4 +1,4 @@
-package com.techapp.calculator;
+package com.techapp.bluetoothsniffer;
 
 import javafx.application.Application;
 import static javafx.application.Application.launch;
