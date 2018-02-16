@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.techapp.bluetoothsniffer.MainController">
+    <stylesheets>
+        <URL value="@/styles/main.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="lbBluetooth" layoutX="26.0" layoutY="68.0" prefHeight="18.0" prefWidth="154.0" text="Label" />
+      <Button fx:id="btConnect" layoutX="26.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleConnectAction" prefHeight="26.0" prefWidth="154.0" text="Connect" />
+      <Button fx:id="btDisconnect" layoutX="186.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleDisconnectAction" prefHeight="26.0" prefWidth="154.0" text="Disconnect" />
+   </children>
+</AnchorPane>

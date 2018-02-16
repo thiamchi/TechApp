@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace">
+    <Properties>
+        <Property name="MainLog">D:\\TechApps\\Data\\Logs\\Main.log</Property>
+    </Properties>
+    <Appenders>
+        <File name="File1" fileName="${MainLog}">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File1"/>
+        </Root>
+    </Loggers>
+</Configuration>
