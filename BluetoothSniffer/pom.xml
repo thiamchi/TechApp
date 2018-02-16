@@ -109,5 +109,17 @@
             </plugin>
         </plugins>
     </build>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.ow2.chameleon.commons.bluecove</groupId>
+            <artifactId>bluecove</artifactId>
+            <version>2.1.1-63</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sf.bluecove</groupId>
+                    <artifactId>bluecove</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
 </project>
