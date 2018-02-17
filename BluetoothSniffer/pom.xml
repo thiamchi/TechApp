@@ -109,17 +109,28 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <dependencies>
+        <dependency>
+            <groupId>org.lwjgl.lwjgl</groupId>
+            <artifactId>lwjgl</artifactId>
+            <version>3.1.6</version>
+        </dependency>
         <dependency>
             <groupId>org.ow2.chameleon.commons.bluecove</groupId>
             <artifactId>bluecove</artifactId>
             <version>2.1.1-63</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>net.sf.bluecove</groupId>
-                    <artifactId>bluecove</artifactId>
-                </exclusion>
-            </exclusions>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.strikerx3</groupId>
+            <artifactId>jxinput</artifactId>
+            <version>ca55984</version>    <!-- JXInput 0.8 -->
         </dependency>
     </dependencies>
 </project>
